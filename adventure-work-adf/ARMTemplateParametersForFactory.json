@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adventure-work-adf"
+		},
+		"AzureDataLakeService_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeService_properties_typeProperties_url": {
+			"value": "https://deadventureworkssa.dfs.core.windows.net/"
+		},
+		"HttpGit_properties_typeProperties_url": {
+			"value": "https://github.com/"
+		}
+	}
+}
